@@ -1,0 +1,24 @@
+# SHL Assessment Recommender - Dependencies
+# ==========================================
+# KYUN YEH PACKAGES:
+# fastapi: Web framework (assignment mein specify kiya)
+# uvicorn: ASGI server FastAPI ke liye
+# pydantic: Data validation (FastAPI ke saath aata hai)
+# anthropic: Claude API client
+# python-dotenv: .env file se API keys load karna
+# requests: HTTP calls (catalog scraping ke liye)
+# beautifulsoup4: HTML parsing (catalog scraping ke liye)
+# httpx: Async HTTP (FastAPI testing ke liye)
+# pytest: Testing
+# pytest-asyncio: Async tests ke liye
+
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+groq==0.5.0
+python-dotenv==1.0.0
+requests==2.31.0
+beautifulsoup4==4.12.3
+httpx==0.26.0
+pytest==7.4.4
+pytest-asyncio==0.23.
